@@ -2371,13 +2371,16 @@ end
 
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 return [[
-𝑺𝑶𝑼𝑹𝑪𝑬 𝑮𝑶𝑶𝑮𝑳𝑬𖠉
+𝒔𝒐𝒖𝒓𝒄𝒆 𝒈𝒐𝒐𝒈𝒍𝒆 𖡥
 ┈ ┈ ┈ ┈ ┈ ┈ ┈
 
-✧ 𝒅𝒆𝒗 ཻ ☫ ┆ [˹𝒈𝒐𝒐𝒈𝒍𝒆𖠔.](t.me/Kgtbr)
-✧ 𝒅𝒆𝒗 ཻ ☫2𖠍 ┆ [˹ 𝐣𝐚𝐦𝐦𝐚𝐦𖠅.](t.me/JAMMAM20)
-✧ 𝒅𝒆𝒗 ཻ 3𖠇┆[˹ 𝒂𝒍𝒍𝒂𝒎𖠐.](t.me/alamy3)
-✧ 𝙲𝙷˛𖤓 ┆ [˹ 𝒈𝒐𝒐𝒈𝒍𝒆𖠔.](t.me/SouRce_Google)
+✧  [𝒈𝒐𝒐𝒈𝒍𝒆˛𖤓](t.me/KGTBR)
+
+✧ [𝒂𝒍𝒍𝒂𝒎 𖠲](t.me/t.me/Alamy3)
+
+✧ [𝒋𝒂𝒎𝒎𝒂𝒎 ♕](t.me/A_2_2)
+
+✧ [𝒔𝒐𝒖𝒓𝒄𝒆 𝒈𝒐𝒐𝒈𝒍𝒆 𖡥](t.me/SouRce_Google)
 ┈ ┈ ┈ ┈ ┈ ┈ ┈
 
 ]]
@@ -4052,7 +4055,7 @@ return
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
 elseif Text== "جوجل" or Text== "بكار" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس جوجل↯](https://t.me/KGTBR)")
 elseif Text== "العالمي" or Text== "عالمي" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس الهكر و سونيك وجوجل ↯](https://t.me/Alamy3)")
-elseif Text== "جمام" or Text== "اخو بكار" then return  sendMsg(msg.chat_id_,msg.id_,"[افضل مطور بوتات في التلجرام ↯](https://t.me/JAMMAM20)")
+elseif Text== "جمام" or Text== "اخو بكار" then return  sendMsg(msg.chat_id_,msg.id_,"[افضل مطور بوتات في التلجرام ↯](https://t.me/A_2_2)")
 elseif Text== "حبيبه" or Text== "نبض" then return  sendMsg(msg.chat_id_,msg.id_,"[مرات جوجل↯](https://t.me/KGTBHH)")
 elseif Text== "سورس جوجل" or Text== "سورس جوجل" then return  sendMsg(msg.chat_id_,msg.id_,"[احسن سورس مصري ↯](https://t.me/SouRce_Google)")
 elseif Text== "اغاني" or Text== "الاغاني" then return  sendMsg(msg.chat_id_,msg.id_,"[@YTOOTY_BOT + اسم الاغنية]")
