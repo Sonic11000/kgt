@@ -2376,7 +2376,7 @@ return [[
 
 ✧  [𝒈𝒐𝒐𝒈𝒍𝒆˛𖤓](t.me/KGTBR)
 
-✧ [𝒂𝒍𝒍𝒂𝒎 𖠲](t.me/t.me/Alamy3)
+✧ [𝒂𝒍𝒍𝒂𝒎 𖠲](http://t.me/Alamy3)
 
 ✧ [𝒋𝒂𝒎𝒎𝒂𝒎 ♕](t.me/A_2_2)
 
