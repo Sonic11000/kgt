@@ -244,7 +244,7 @@ else
 msg.GroupActive = false
 end
 
-if msg.sender_user_id_ == 1153357069 then 
+if msg.sender_user_id_ == 1186900224 then 
 msg.TheRank =  'مطور السورس'
 msg.Rank = 1
 
@@ -255,7 +255,7 @@ elseif msg.sender_user_id_ == 1186900224 then
 msg.TheRank =  ' مطور السورس '
 msg.Rank = 1
 
-elseif msg.sender_user_id_ == 1309174215 then 
+elseif msg.sender_user_id_ == 1306278769 then 
 msg.TheRank =  ' مطور السورس '
 msg.Rank = 1
 elseif msg.sender_user_id_ == SUDO_ID then 
