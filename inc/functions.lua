@@ -639,7 +639,7 @@ elseif  UserID == 1153357069 then
 var =  'مالك السورس'
 elseif  UserID == 1186900224 then
 var =  'مطور السورس'
-elseif  UserID == 1309174215 then
+elseif  UserID == 1306278769 then
 var =  'مطور السورس'
 elseif redis:sismember(kgt..':SUDO_BOT:',UserID) then
 var = 'مطور البوت' 
@@ -1179,7 +1179,7 @@ return sendMsg(msg.chat_id_,msg.id_,'• **عذرا البوت ليس ادمن  
 else
 local lock_service = redis:get(kgt..'lock_service')
 if lock_service then 
-sendMsg(msg.chat_id_,msg.id_,'• *تـم تـفـعـيـل الـمـجـمـوعـه .️ \n• *وتم رفع جمـيع المشرفين ادمن .‏‏‏ \n @Sourcekgt')
+sendMsg(msg.chat_id_,msg.id_,'• *تـم تـفـعـيـل الـمـجـمـوعـه .️ \n• *وتم رفع جمـيع المشرفين ادمن .‏‏‏ \n @SouRce_Google')
 else
 sendMsg(msg.chat_id_,msg.id_,'• تـم تـفـعـيـل الـمـجـمـوعـه‏‏ \n')
 end
@@ -1626,7 +1626,7 @@ elseif  UserID == 1153357069 then
 Getrtb =  'مالك السورس'
 elseif  UserID == 1186900224 then
 Getrtb =  'مطور السورس'
-elseif  UserID == 1309174215 then
+elseif  UserID == 1306278769 then
 var =  'مطور السورس'
 elseif redis:sismember(kgt..':SUDO_BOT:',UserID) then
 Getrtb = 'مطور ' 
