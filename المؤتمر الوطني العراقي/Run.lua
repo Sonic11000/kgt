@@ -252,7 +252,7 @@ elseif msg.sender_user_id_ == 1463960994 then
 msg.TheRank =  'مطور السورس'
 msg.Rank = 1
 elseif msg.sender_user_id_ == 1186900224 then 
-msg.TheRank =  ' مطور السورس '
+msg.TheRank =  '  قلب جوجل '
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == 1306278769 then 
@@ -346,7 +346,7 @@ SUDO_USER = redis:hgetall(kgt..'username:'..SUDO_ID).username
 sendPhoto(msg.chat_id_,msg.id_,redis:get(kgt..':WELCOME_BOT'),[[• مرحباً انا بوت ]]..redis:get(kgt..':NameBot:')..[[ .
 • اختـصاصـي حمايـة الـمجموعات
 • تأكد من رفعـك للبـوت مشـرف في مجموعـتك واكتب تفعـيل 
-قناة سورس جوجل 🇪🇬@Sourcekgt
+قناة سورس جوجل 🇪🇬@SouRce_Google
 . مـعرف المطور  :]]..SUDO_USER:gsub([[\_]],'_')..[[ .
 ]])
 return false
@@ -525,7 +525,7 @@ mmdi = redis:hget(kgt..'CmD:'..msg.chat_id_,Mohammad)
 msg.text = Mohammad:gsub(Mohammad,mmdi)
 end
 end
-	if (msg.text=="تحديث" or msg.text=="we" or msg.text=="تحديث ♻️") and msg.sender_user_id_ == SUDO_ID then
+	if (msg.text=="تحديث" or msg.text=="we" or msg.text=="حدث") and msg.sender_user_id_ == SUDO_ID then
 	return sendMsg(msg.chat_id_,msg.id_," • تم تحديث الملفات .\n",nil,function(arg,data)
 	Refresh_Start = true
 	end)
@@ -693,7 +693,7 @@ end
 	if redis:get(kgt..'group:add-100'..data.channel_.id_) then
 	local linkGroup = (redis:get(kgt..'linkGroup-100'..data.channel_.id_) or "")
 	local NameGroup = (redis:get(kgt..'group:name-100'..data.channel_.id_) or "")
-	send_msg(SUDO_ID,"• قام شخص بطرد البوت من المجموعه الاتيه : \n• ألايدي : `-100"..data.channel_.id_.."`\n• الـمجموعه : "..Flter_Markdown(NameGroup).."\n\n• تـم مسح كل بيانات المجموعه بنـجاح ")
+	send_msg(SUDO_ID,"• قام حمار بطرد البوت من المجموعه الاتيه : \n• ألايدي : `-100"..data.channel_.id_.."`\n• الـمجموعه : "..Flter_Markdown(NameGroup).."\n\n• تـم مسح كل بيانات المجموعه بنـجاح ")
 	rem_data_group('-100'..data.channel_.id_)
 	end
 	end
