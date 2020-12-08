@@ -248,18 +248,18 @@ msg.GroupActive = false
 end
 
 if msg.sender_user_id_ == 1153357069 then 
-msg.TheRank =  'مطور السورس'
+msg.TheRank =  'قلب جوجل  '
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == 1463960994 then 
-msg.TheRank =  'مطور السورس'
+msg.TheRank =  'قلب جوجل '
 msg.Rank = 1
 elseif msg.sender_user_id_ == 1186900224 then 
 msg.TheRank =  '  قلب جوجل '
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == 1306278769 then 
-msg.TheRank =  ' مطور السورس '
+msg.TheRank =  ' قلب جوجل '
 msg.Rank = 1
 elseif msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور' 
