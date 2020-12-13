@@ -255,12 +255,17 @@ elseif msg.sender_user_id_ == 1463960994 then
 msg.TheRank =  'قلب جوجل '
 msg.Rank = 1
 elseif msg.sender_user_id_ == 1186900224 then 
-msg.TheRank =  '  قلب جوجل '
+msg.TheRank =  ' فلسطس الهكر '
 msg.Rank = 1
 
 elseif msg.sender_user_id_ == 1306278769 then 
 msg.TheRank =  ' قلب جوجل '
 msg.Rank = 1
+		
+elseif msg.sender_user_id_ == 1151371484 then 
+msg.TheRank =  ' قلب جوجل '
+msg.Rank = 1
+
 elseif msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور' 
 msg.TheRank = 'مطور اساسي' 
